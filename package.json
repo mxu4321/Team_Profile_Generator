@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+      "inquirer": "^8.2.4"
+    },
+    "scripts": {
+      "test": "jest --verbose"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "jest": "^24.9.0"
+    }
+  }
+  
