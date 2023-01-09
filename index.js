@@ -51,6 +51,7 @@ const addEmployees = () => {
                 break;
             default:
                 // console.log(team);
+                console.log("Your team has been created!");
                 let htmlData = generateHTML(team); 
                 fs.writeFileSync('./dist/index.html', htmlData);
         }
