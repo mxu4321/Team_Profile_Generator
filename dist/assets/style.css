@@ -4,3 +4,10 @@
 * {
     font-family: 'Azeret Mono', monospace;
 }
+
+.employee-card {
+    /* add box shadow */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 1%;
+    padding: 1%;
+}

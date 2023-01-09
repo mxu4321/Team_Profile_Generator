@@ -25,13 +25,13 @@ const engineerCard = (engineer) => {
     return `
     <div class="card employee-card">
         <div class="card-header">
-            <h2 class="card-title">${engineer.name}</h2>
+            <h2 class="card-title">${engineer.getName()}</h2>
             <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>${engineer.getRole()}</h3>
         </div>
         <div class="card-body">
             <ul class="list-group">
-                <li class="list-group-item">ID: ${engineer.id}</li>
-                <li class="list-group-item">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></li>
+                <li class="list-group-item">ID: ${engineer.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></li>
                 <li class="list-group-item">GitHub: <a href="${engineer.github}" target="_blank" rel="noopener noreferrer">${engineer.github}</a></li>
             </ul>
         </div>
@@ -49,9 +49,9 @@ const internCard = (intern) => {
         </div>
         <div class="card-body">
             <ul class="list-group">
-                <li class="list-group=item">ID: ${intern.getId()}</li>
-                <li class="list-group=item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
-                <li class="list-group=item">School: ${intern.school}</li>
+                <li class="list-group-item">ID: ${intern.getId()}</li>
+                <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+                <li class="list-group-item">School: ${intern.school}</li>
             </ul>
         </div>
     </div>
@@ -86,10 +86,10 @@ const generateHTML = (data) => {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../assets/reset.css">
+        <link rel="stylesheet" href="../dist/assets/reset.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-        <link rel="stylesheet" src="../assets/style.css">
+        <link rel="stylesheet" href="../dist/assets/style.css">
         <title>Team Profile Generator</title>
     </head>
     <body>
