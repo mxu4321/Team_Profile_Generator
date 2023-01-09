@@ -1,13 +1,39 @@
 /* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap");
 
 * {
-    font-family: 'Azeret Mono', monospace;
+  font-family: "Azeret Mono", monospace;
 }
 
 .employee-card {
-    /* add box shadow */
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    margin: 1%;
-    padding: 1%;
+  /* add card style */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.employee-card .card-header {
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+header .team-heading,
+.employee-card .card-header {
+  background-image: radial-gradient(
+    circle farthest-corner at 92.3% 71.5%,
+    rgba(83, 138, 214, 1) 0%,
+    rgba(134, 231, 214, 1) 90%
+  );
+  color: white;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h1,
+.employee-card .card-header {
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
