@@ -20,7 +20,7 @@ Module 10 Object-Oriented Programming: Team Profile Generator
 
 ## Usage
 
-use node js to excute in the terminal by the following command:
+use node js to execute in the terminal by the following command:
 ```
 node index.js
 ```
@@ -29,7 +29,7 @@ node index.js
 ## Test
 
 
-use jest to excute the tests in the terminal by the following command:
+use jest to execute the tests in the terminal by the following command:
 ```
 npm test
 ```
@@ -42,7 +42,7 @@ npm test
 
 **Runtime:** Node
 
-**Lanuage:** Javascript
+**Language:** Javascript
 
 **Dependencies:** inquirer 8.2.4, jest 24.9.0
 
